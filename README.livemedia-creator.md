@@ -1,4 +1,3 @@
-
 INTRO
 -----
 livemedia-creator uses Anaconda, kickstart and Lorax to create bootable media
@@ -17,8 +16,10 @@ minimum you need:
 
 QUICKSTART
 ----------
+```bash
 sudo livemedia-creator --make-iso \
 --iso=/extra/iso/Fedora-16-x86_64-netinst.iso --ks=./fedora-livemedia.ks
+```
 
 If you are using the lorax git repo you can run it like so:
 
